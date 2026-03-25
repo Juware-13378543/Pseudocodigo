@@ -1,6 +1,6 @@
 Algoritmo definirVariables //Estoy usando una nomenclatura camel case
 	
-	// Definiendo o declarando variables
+	/// Definiendo o declarando variables
 	Definir espacioNumero Como Entero;
 	Definir valorNegativo como Entero;
     Definir numeroReal Como Real;
