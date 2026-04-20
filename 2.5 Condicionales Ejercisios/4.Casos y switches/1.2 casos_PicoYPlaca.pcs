@@ -1,0 +1,33 @@
+Algoritmo casos_PicoYPlaca
+	//Definir 
+	Definir placa Como Real;
+	
+	//Inicializar
+	Escribir "¿Que dia tiene pico y placa?";
+	Escribir "0-1 = Lunes";
+	Escribir "2-7 = Martes";
+	Escribir "9-4 = Miercoles";
+	Escribir "5-3 = Jueves";
+	Escribir "8-6 = Viernes";
+	
+	//Casos
+	Escribir "";
+	
+	Segun placa Hacer
+		0,1:
+			Escribir "Hay pico y placa el lunes";
+		2,7:
+			Escribir "Hay pico y placa el Martes";
+		9-4:
+			Escribir "Hay pico y placa el Miercoles";
+		5,3:
+			Escribir "Hay pico y placa el Jueves";
+		8,6:
+			Escribir "Hay pico y placa el Viernes";
+			
+		De Otro Modo:
+			Escribir "No has ingresado nigun numero del menu ofrecido";
+	FinSegun
+	
+	
+FinAlgoritmo
